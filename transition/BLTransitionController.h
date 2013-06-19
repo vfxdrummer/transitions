@@ -8,6 +8,12 @@
 
 @import UIKit;
 
+typedef enum {
+    BLAnimationTransitionFlip
+} BLAnimationTransitions;
+
 @interface BLTransitionController : NSObject <UIViewControllerAnimatedTransitioning>
+
+@property (nonatomic) BLAnimationTransitions animationTransition;
 
 @end

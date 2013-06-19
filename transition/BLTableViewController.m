@@ -76,6 +76,7 @@
         return  nil;
     }
     
+//    [[self transitionController] setAnimationTransition:BLAnimationTransitionFlip];
     return [self transitionController];
 }
 
